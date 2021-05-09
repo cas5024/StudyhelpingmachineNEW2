@@ -2,21 +2,23 @@ package com.example.ui123;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.media.Image;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.Toast;
 
 
 public class Musicselect extends AppCompatActivity {
 
-    Button play;
-    Button musicback;
-    Button musicnext;
-    Button pause;
+    ImageButton play;
+    ImageButton musicback;
+    ImageButton musicnext;
+    ImageButton pause;
     SeekBar seekbar;
 
     MediaPlayer mediaPlayer;

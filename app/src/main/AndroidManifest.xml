@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ui123">
+        <activity android:name=".activity_07"></activity>
+        <activity android:name=".activity_06"></activity>
+        <activity android:name=".activity_05"></activity>
+        <activity android:name=".Musicselect"></activity>
         <activity android:name=".ui2"></activity>
         <activity android:name=".ui1" />
         <activity android:name=".MainActivity">
