@@ -65,7 +65,13 @@ public class Musicselect extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 mediaPlayer.start();
-
+                if(mediaPlayer.isPlaying()){
+                    Toast.makeText(getApplicationContext(), "재생중입니다.",Toast.LENGTH_LONG).show();
+                }
+                else{
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(),array[index]);
+                    mediaPlayer.start();
+                }
             }
         });
         pause.setOnClickListener(new View.OnClickListener() {
@@ -75,10 +81,6 @@ public class Musicselect extends AppCompatActivity {
                 if(mediaPlayer.isPlaying()){
                     mediaPlayer.stop();
 
-                }else{
-//getApplicationContext() 현재 액티비티 정보얻어오기
-                    mediaPlayer = MediaPlayer.create(getApplicationContext(), array[index]);
-                    mediaPlayer.start();
                 }
             }
         });
