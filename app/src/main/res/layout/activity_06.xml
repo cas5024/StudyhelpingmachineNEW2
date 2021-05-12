@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="67dp"
+        android:layout_height="wrap_content"
         android:text="PAUSE..."
         android:textColor="#000000"
         android:textSize="50dp"
@@ -23,40 +23,44 @@
         android:id="@+id/running_button1"
         android:layout_width="200dp"
         android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
         android:text="RUNNING"
         android:textColor="#000000"
         app:backgroundTint="#00FFFFFF"
         app:iconTint="#020202"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/option_button1"
         android:layout_width="200dp"
         android:layout_height="80dp"
+        android:layout_marginTop="60dp"
         android:text="OPTIONS"
         android:textColor="#000000"
         app:backgroundTint="#FAFAFA"
         app:iconTint="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/running_button1" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="200dp"
         android:layout_height="80dp"
+        android:layout_marginTop="60dp"
         android:text="QUIT"
         android:textColor="#090909"
         app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/option_button1" />
 
 
 
