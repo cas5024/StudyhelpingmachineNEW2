@@ -154,25 +154,5 @@ public class Musicselect extends AppCompatActivity {
         );
     }//onCreate end
 
-    TgStreamHandler callback =new TgStreamHandler() {           //TgStreamHandler 객체생성 in MusicSelect class
-        @Override
-        public void onDataReceived(int i, int i1, Object o) {
 
-        }
-
-        @Override
-        public void onStatesChanged(int i) {
-
-        }
-
-        @Override
-        public void onChecksumFail(byte[] bytes, int i, int i1) {
-
-        }
-
-        @Override
-        public void onRecordFail(int i) {
-
-        }
-    };
 }

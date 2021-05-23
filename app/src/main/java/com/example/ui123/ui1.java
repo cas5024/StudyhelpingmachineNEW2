@@ -27,7 +27,7 @@ import java.io.InputStreamReader;
 public class ui1 extends AppCompatActivity {
     final String TAG = "ui1_Activity";
 
-    //attValue medValue 값 화면표시
+    //attValue medValue 값 화면표시 , 굳이 필요없을 듯.
     private TextView attValue;
     private TextView medValue;
 
@@ -68,7 +68,7 @@ public class ui1 extends AppCompatActivity {
         nskAlgoSdk = new NskAlgoSdk();
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
-        //TgStreamHandler 객체 생성 (해도되나? 이 장소에서?)
+        //TgStreamHandler 객체 생성 
         TgStreamHandler callback = new TgStreamHandler() {
 
             @Override
