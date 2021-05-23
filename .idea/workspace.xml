@@ -32,27 +32,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ui123.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ui123.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/ui123/Musicselect.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/ui123/Musicselect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/ui123/ui1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/ui123/ui1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/ui123/ui2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/ui123/Musicselect.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/ui123/Musicselect.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/ui123/ui1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/ui123/ui1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/ui123/ui2$1.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_ui_1.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_ui_1.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ui123/ui1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ui123/ui1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ui_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ui_1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="266" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1621753188155" />
-    <state x="1152" y="505" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621758737807">
+    <state x="1152" y="505" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621759229417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1152" y="505" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621758737807" />
+    <state x="1152" y="505" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621759229417" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1621689626779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -245,42 +231,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="265" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621756200281" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1621759034377">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1621759344796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621759034377" />
-    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1621757510053">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621759344796" />
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621757510053" />
-    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1621757510053">
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
+    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621757510053" />
-    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1621757510053">
+    <state width="1876" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
+    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1621759213401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621757510053" />
-    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1621757510053">
+    <state width="1876" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213401" />
+    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621757510053" />
-    <state width="1876" height="279" key="GridCell.Tab.1.bottom" timestamp="1621757442650">
+    <state width="1876" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
+    <state width="1876" height="279" key="GridCell.Tab.1.bottom" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621757442650" />
-    <state width="1876" height="279" key="GridCell.Tab.1.center" timestamp="1621757442650">
+    <state width="1876" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
+    <state width="1876" height="279" key="GridCell.Tab.1.center" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621757442650" />
-    <state width="1876" height="279" key="GridCell.Tab.1.left" timestamp="1621757442649">
+    <state width="1876" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
+    <state width="1876" height="279" key="GridCell.Tab.1.left" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621757442649" />
-    <state width="1876" height="279" key="GridCell.Tab.1.right" timestamp="1621757442650">
+    <state width="1876" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
+    <state width="1876" height="279" key="GridCell.Tab.1.right" timestamp="1621759213402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621757442650" />
+    <state width="1876" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621759213402" />
     <state x="662" y="328" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1621753072743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
