@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         start_button.setOnClickListener(new View.OnClickListener(){ //OnTouchListener 클래스 내용
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(MainActivity.this, ui1.class);
+                Intent intent1 = new Intent(MainActivity.this, Musicselect.class);
                 startActivity(intent1);
                 }
         });

@@ -140,24 +140,13 @@ public class Musicselect extends AppCompatActivity {
         );
         Button next2 = findViewById(R.id.nextmusic);
 
-        TgStreamReader tgStreamReader = new TgStreamReader(mbluetoothAdapter, callback);
-        tgStreamReader.setGetDataTimeOutTime(6);
-
+        //다음 ui1액티비티로 넘어감.
         next2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Musicselect.this, activity_05.class); // next버튼 누르면 ui2activity 시작됨.
+                Intent intent = new Intent(Musicselect.this, ui1.class); // next버튼 누르면 ui2activity 시작됨.
                 startActivity(intent);
 
-                if(tgStreamReader != null && tgStreamReader.isBTConnected()){
-
-                    // Prepare for connecting
-                    tgStreamReader.stop();
-                    tgStreamReader.close();
-                }
-
-
-            tgStreamReader.start();
 
             }
         }

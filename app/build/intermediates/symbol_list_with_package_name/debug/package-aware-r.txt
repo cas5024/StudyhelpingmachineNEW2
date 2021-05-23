@@ -685,7 +685,6 @@ id blocking
 id bottom
 id bt_button
 id bt_next_button
-id bt_switch
 id btn_musicback
 id btn_musicnext
 id btn_pause
@@ -725,6 +724,7 @@ id forever
 id gone
 id group_divider
 id groups
+id headset_button
 id home
 id homeAsUp
 id icon
@@ -741,13 +741,10 @@ id listMode
 id listViewMp3
 id list_item
 id main_title
-id memorize_button
 id message
 id middle
-id modeselect_button
 id multiply
 id never
-id next_button2
 id nextmusic
 id none
 id normal
@@ -817,7 +814,6 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id understand_button
 id uniform
 id up
 id useLogo
@@ -873,7 +869,6 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout ui_1
-layout ui_2
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw burkinelectric
