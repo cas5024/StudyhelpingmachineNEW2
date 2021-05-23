@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ui123">
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,8 +14,7 @@
         <activity android:name=".activity_06"></activity>
         <activity android:name=".activity_05"></activity>
         <activity android:name=".Musicselect"></activity>
-        <activity android:name=".ui2"></activity>
-        <activity android:name=".ui1" />
+        <activity android:name=".ui1"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

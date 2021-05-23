@@ -15,16 +15,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_switch" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_button" />
 
     <TextView
         android:id="@+id/connect_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="68dp"
         android:text="CONNECT"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,23 +33,20 @@
         android:id="@+id/bt_button"
         android:layout_width="169dp"
         android:layout_height="85dp"
-        android:layout_marginTop="56dp"
         android:text="Bluetooth Connect"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/connect_title" />
+        app:layout_constraintTop_toBottomOf="@+id/headset_button" />
 
-    <Switch
-        android:id="@+id/bt_switch"
+    <Button
+        android:id="@+id/headset_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="372dp"
-        android:text="on/off"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="headset button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_button" />
+        app:layout_constraintTop_toBottomOf="@+id/connect_title" />
 
 </android.support.constraint.ConstraintLayout>
