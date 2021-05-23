@@ -3,6 +3,7 @@ package com.example.ui123;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -296,6 +297,8 @@ public class ui1 extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+        Intent intent = getIntent();
+        int musicselected1 = intent.getExtras().getInt("musicselected1");
         // 이거 데이터 받아서 setText보여주는 거 textview에
         nskAlgoSdk.setOnAttAlgoIndexListener(new NskAlgoSdk.OnAttAlgoIndexListener() {
             @Override
@@ -307,7 +310,12 @@ public class ui1 extends AppCompatActivity {
                     public void run() {
                         // change UI elements here
                         //여기에 value값(집중도)에 따라 음악나오는 메소드 구현
-                        AttStartMusic(value);
+
+                        int[] array = {R.raw.burkinelectric, R.raw.unavailable};
+                        //musicselected값 받아오기 그리고 mediaPlayer에 넣기
+                        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),array[musicselected1]);
+
+                        AttStartMusic(value, mediaPlayer);
 
                     }
                 });
@@ -351,11 +359,13 @@ public class ui1 extends AppCompatActivity {
         return data;
     }
     //Att값에 따라 음악 재생하는 메소드
-    public void AttStartMusic(int value) {
-        if(value<=50)
-            {
+    public void AttStartMusic(int value, MediaPlayer mediaPlayer) {
+        if(value<=50) {
+            mediaPlayer.start();
 
         }
+        else
+            mediaPlayer.stop();
     }
 
 

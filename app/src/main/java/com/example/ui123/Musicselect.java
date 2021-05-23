@@ -29,6 +29,7 @@ public class Musicselect extends AppCompatActivity {
     SeekBar seekbar;
 
     MediaPlayer mediaPlayer;
+    //이 배열에 raw폴더의 음악들 넣는다.
     int[] array = {R.raw.burkinelectric, R.raw.unavailable};
     int index = 0;
 
@@ -38,15 +39,8 @@ public class Musicselect extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.musicselcet);
 
-        mbluetoothAdapter = BluetoothAdapter.getDefaultAdapter();           //BluetoothAdapter 객체생성 in onCreate메소드
-        if (mbluetoothAdapter == null || !mbluetoothAdapter.isEnabled()) {
-            Toast.makeText(
-                    this,
-                    "Please enable your Bluetooth and re-run this program !",
-                    Toast.LENGTH_LONG).show();
-            finish();
-//				return;
-        }
+        //전달할 musicselect배열번호
+        int musicselected=0;
 
         mediaPlayer = MediaPlayer.create(this,R.raw.burkinelectric);
 
@@ -145,6 +139,9 @@ public class Musicselect extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Musicselect.this, ui1.class); // next버튼 누르면 ui2activity 시작됨.
+                //int형 musicselected intent ui1.class로 전달 key값: "musicselected"
+                intent.putExtra("musicselected1",  musicselected);
+
                 startActivity(intent);
 
 
