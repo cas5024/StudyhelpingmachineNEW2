@@ -2,16 +2,6 @@ com/example/ui123/activity_07.java
  com.example.ui123.activity_07
 com/example/ui123/BuildConfig.java
  com.example.ui123.BuildConfig
-com/example/ui123/activity_05.java
- com.example.ui123.activity_05
- com.example.ui123.activity_05$1
-com/example/ui123/MainActivity.java
- com.example.ui123.MainActivity
- com.example.ui123.MainActivity$1
-com/example/ui123/activity_06.java
- com.example.ui123.activity_06
- com.example.ui123.activity_06$1
- com.example.ui123.activity_06$1$1
 com/example/ui123/ui1.java
  com.example.ui123.ui1
  com.example.ui123.ui1$1
@@ -31,4 +21,13 @@ com/example/ui123/Musicselect.java
  com.example.ui123.Musicselect$4
  com.example.ui123.Musicselect$5
  com.example.ui123.Musicselect$6
- com.example.ui123.Musicselect$7
+com/example/ui123/activity_06.java
+ com.example.ui123.activity_06
+ com.example.ui123.activity_06$1
+ com.example.ui123.activity_06$1$1
+com/example/ui123/MainActivity.java
+ com.example.ui123.MainActivity
+ com.example.ui123.MainActivity$1
+com/example/ui123/activity_05.java
+ com.example.ui123.activity_05
+ com.example.ui123.activity_05$1

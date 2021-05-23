@@ -68,7 +68,7 @@ public class ui1 extends AppCompatActivity {
         nskAlgoSdk = new NskAlgoSdk();
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
-        //TgStreamHandler 객체 생성 
+        //TgStreamHandler 객체 생성
         TgStreamHandler callback = new TgStreamHandler() {
 
             @Override
@@ -185,6 +185,9 @@ public class ui1 extends AppCompatActivity {
 
                     // Example of constructor public TgStreamReader(BluetoothAdapter ba, TgStreamHandler tgStreamHandler)
                     tgStreamReader = new TgStreamReader(mBluetoothAdapter,callback);
+
+                    //tgStreamReader여기 맞나?
+                    tgStreamReader.setGetDataTimeOutTime(6);
 
                     if(tgStreamReader != null && tgStreamReader.isBTConnected()){
 
