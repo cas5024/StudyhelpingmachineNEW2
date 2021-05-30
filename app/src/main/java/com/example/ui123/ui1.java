@@ -157,11 +157,16 @@ public class ui1 extends AppCompatActivity {
         Button cannedButton = findViewById(R.id.bt_button);
         Button next = findViewById(R.id.bt_next_button);
         Button headsetButton = findViewById(R.id.headset_button);
-        Button startButton =findViewById(R.id.bt_next_button);
+        //Button startButton =findViewById(R.id.bt_next_button);
         //버튼에 클릭리스너 set
         next.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                if (bRunning == false) {
+                    nskAlgoSdk.NskAlgoStart(false);
+                } else {
+                    nskAlgoSdk.NskAlgoPause();
+                }
                 Intent intent = new Intent(ui1.this, activity_05.class); // next버튼 누르면 ui2activity 시작됨.
                 startActivity(intent);
             }
@@ -271,8 +276,9 @@ public class ui1 extends AppCompatActivity {
             }
         });
 
-        //startButton에 클릭리스너 setting
-        startButton.setOnClickListener(new View.OnClickListener() {
+        //startButton에 클릭리스너 setting 지금 test로 next버튼에 옮김
+        /*
+        start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (bRunning == false) {
@@ -282,7 +288,7 @@ public class ui1 extends AppCompatActivity {
                 }
             }
         });
-
+        */
 
     }
 
