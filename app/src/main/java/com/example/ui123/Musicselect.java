@@ -1,6 +1,7 @@
 package com.example.ui123;
 
 import android.annotation.SuppressLint;
+import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.media.Image;
 import android.media.MediaPlayer;
@@ -12,8 +13,14 @@ import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.Toast;
 
+import com.neurosky.connection.TgStreamHandler;
+import com.neurosky.connection.TgStreamReader;
+
 
 public class Musicselect extends AppCompatActivity {
+
+    TgStreamReader tgStreamReader;
+    private BluetoothAdapter mbluetoothAdapter;     //BluetoothAdapter 변수선언 in MusicSelect class
 
     ImageButton play;
     ImageButton musicback;
@@ -30,6 +37,16 @@ public class Musicselect extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.musicselcet);
+
+        mbluetoothAdapter = BluetoothAdapter.getDefaultAdapter();           //BluetoothAdapter 객체생성 in onCreate메소드
+        if (mbluetoothAdapter == null || !mbluetoothAdapter.isEnabled()) {
+            Toast.makeText(
+                    this,
+                    "Please enable your Bluetooth and re-run this program !",
+                    Toast.LENGTH_LONG).show();
+            finish();
+//				return;
+        }
 
         mediaPlayer = MediaPlayer.create(this,R.raw.burkinelectric);
 
@@ -118,16 +135,24 @@ public class Musicselect extends AppCompatActivity {
                 }else{
                     Toast.makeText(getApplicationContext(), "재생중이 아닙니다",Toast.LENGTH_LONG).show();
                 }
-
-
-
-
             }
-        });
+        }
+        );
         Button next2 = findViewById(R.id.nextmusic);
+
+        //다음 ui1액티비티로 넘어감.
         next2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Musicselect.this, activity_05.class); // next버튼 누르면 ui2activity 시작됨.
-                startActivity(intent);}}
-                );}}
+                Intent intent = new Intent(Musicselect.this, ui1.class); // next버튼 누르면 ui2activity 시작됨.
+                startActivity(intent);
+
+
+            }
+        }
+
+        );
+    }//onCreate end
+
+
+}
