@@ -4,6 +4,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.media.MediaPlayer;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -54,6 +55,8 @@ public class ui1 extends AppCompatActivity {
     private int output_data_count = 0;
     private int raw_data_sec_len = 85;
 
+    private int badPacketCount = 0;
+
     // internal variables
     private boolean bInited = false;
     private boolean bRunning = false;
@@ -69,13 +72,12 @@ public class ui1 extends AppCompatActivity {
         nskAlgoSdk = new NskAlgoSdk();
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
+        tgStreamReader = new TgStreamReader(mBluetoothAdapter,callback);
+        // (2) Demo of setGetDataTimeOutTime, the default time is 5s, please call it before connect() of connectAndStart()
+        tgStreamReader.setGetDataTimeOutTime(6);
+
         //TgStreamHandler 객체 생성
         TgStreamHandler callback = new TgStreamHandler() {
-
-            @Override
-            public void onDataReceived(int i, int i1, Object o) {
-
-            }
 
             @Override
             public void onStatesChanged(int connectionStates) {
@@ -94,32 +96,17 @@ public class ui1 extends AppCompatActivity {
                         // Do something when working
 
                         //(9) demo of recording raw data , stop() will call stopRecordRawData,
-                        //or you can add a button to control it.
-                        //You can change the save path by calling setRecordStreamFilePath(String filePath) before startRecordRawData
-                        //tgStreamReader.startRecordRawData();
-
-                        ui1.this.runOnUiThread(new Runnable() {
-                            public void run() {
-                                Button startButton = (Button) findViewById(R.id.bt_next_button);
-                                startButton.setEnabled(true);
-                            }
-
-                        });
+                        //or you can add a button to control it
+                        tgStreamReader.startRecordRawData();
 
                         break;
                     case ConnectionStates.STATE_GET_DATA_TIME_OUT:
                         // Do something when getting data timeout
 
                         //(9) demo of recording raw data, exception handling
-                        //tgStreamReader.stopRecordRawData();
+                        tgStreamReader.stopRecordRawData();
 
                         showToast("Get data time out!", Toast.LENGTH_SHORT);
-
-                        if (tgStreamReader != null && tgStreamReader.isBTConnected()) {
-                            tgStreamReader.stop();
-                            tgStreamReader.close();
-                        }
-
                         break;
                     case ConnectionStates.STATE_STOPPED:
                         // Do something when stopped
@@ -140,15 +127,30 @@ public class ui1 extends AppCompatActivity {
                         // Maybe you have to try again
                         break;
                 }
-            }
 
-            @Override
-            public void onChecksumFail(byte[] bytes, int i, int i1) {
 
             }
 
             @Override
-            public void onRecordFail(int i) {
+            public void onDataReceived(int datatype, int data, Object obj) {
+                // You can handle the received data here
+                // You can feed the raw data to algo sdk here if necessary.
+
+
+            }
+
+
+
+            @Override
+            public void onRecordFail(int flag) {
+                // You can handle the record error message here
+                Log.e(TAG,"onRecordFail: " +flag);
+
+            }
+
+            @Override
+            public void onChecksumFail(byte[] payload, int length, int checksum) {
+
 
             }
         };
@@ -172,6 +174,9 @@ public class ui1 extends AppCompatActivity {
             }
 
         });
+
+
+
 
         //버튼에 클릭 리스너 set
         headsetButton.setOnClickListener(new View.OnClickListener() {

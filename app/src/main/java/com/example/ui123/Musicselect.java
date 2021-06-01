@@ -56,13 +56,16 @@ public class Musicselect extends AppCompatActivity {
         listview1.setAdapter(adapter);
         music_strings.add("music1");
         music_strings.add("music2");
-
-
-
-
-
-
-
+        listview1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String musicnumber = (String)parent.getAdapter().getItem(position);
+                if(musicnumber=="music1")
+                    musicselected=0;
+                if(musicnumber=="music2")
+                    musicselected=1;
+            }
+        });
 
 
 
