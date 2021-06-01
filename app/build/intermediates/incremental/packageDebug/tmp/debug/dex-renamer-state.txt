@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Tue Jun 01 19:25:11 KST 2021
 base.0=C\:\\Users\\cas50\\Documents\\StudyhelpingmachineNEW2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+=======
+#Sun May 30 17:01:15 KST 2021
+base.0=C\:\\Users\\mingyu\\Desktop\\studyhelpingmachine\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+>>>>>>> re/basictestbranch3
 path.0=classes.dex
 renamed.0=classes.dex

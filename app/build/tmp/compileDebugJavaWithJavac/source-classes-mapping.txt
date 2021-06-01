@@ -10,9 +10,13 @@ com/example/ui123/ui1.java
  com.example.ui123.ui1$3
  com.example.ui123.ui1$4
  com.example.ui123.ui1$5
+ com.example.ui123.ui1$5$1
  com.example.ui123.ui1$6
+<<<<<<< HEAD
  com.example.ui123.ui1$6$1
  com.example.ui123.ui1$7
+=======
+>>>>>>> re/basictestbranch3
 com/example/ui123/activity_05.java
  com.example.ui123.activity_05
  com.example.ui123.activity_05$1
