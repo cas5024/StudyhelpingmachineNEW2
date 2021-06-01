@@ -35,11 +35,6 @@ public class Musicselect extends AppCompatActivity {
     SeekBar seekbar;
 
     MediaPlayer mediaPlayer;
-<<<<<<< HEAD
-
-=======
-    //이 배열에 raw폴더의 음악들 넣는다.
->>>>>>> re/basictestbranch3
     int[] array = {R.raw.burkinelectric, R.raw.unavailable};
     int index = 0;
     //전달할 musicselect배열번호
@@ -60,17 +55,6 @@ public class Musicselect extends AppCompatActivity {
         listview1.setAdapter(adapter);
         music_strings.add("music1");
         music_strings.add("music2");
-
-
-
-
-
-
-
-
-
-
-
 
         mediaPlayer = MediaPlayer.create(this,R.raw.burkinelectric);
 
