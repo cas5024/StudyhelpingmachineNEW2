@@ -29,6 +29,7 @@ public class Musicselect extends AppCompatActivity {
     SeekBar seekbar;
 
     MediaPlayer mediaPlayer;
+
     int[] array = {R.raw.burkinelectric, R.raw.unavailable};
     int index = 0;
 
