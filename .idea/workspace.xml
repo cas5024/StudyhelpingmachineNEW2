@@ -8,6 +8,9 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -329,7 +332,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+=======
+<<<<<<< HEAD
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\inho1\.android\avd\Pixel_3a_API_30_x86.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[289cabc8641c7ece]" />
+>>>>>>> 353cc61885ff7f5ab028d216ed29b4bf3f244fe4
+>>>>>>> c5962ac16407add77a9a0b456ad60fa082dc7fcf
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -402,6 +413,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="C:\Users\cas50\Documents\StudyhelpingmachineNEW2\app\build\outputs\apk\debug\app-debug.apk" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -452,6 +464,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -526,6 +539,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618374426918" />
+<<<<<<< HEAD
+    <state x="592" y="207" key="FileChooserDialogImpl" timestamp="1620964348469">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="592" y="207" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1620964348469" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620730561963" />
+    <state width="1342" height="146" key="GridCell.Tab.0.bottom" timestamp="1620964357793">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1342" height="146" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1620964357793" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620563557533" />
+    <state width="1342" height="146" key="GridCell.Tab.0.center" timestamp="1620964357793">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1342" height="146" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1620964357793" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620563557533" />
+    <state width="1342" height="146" key="GridCell.Tab.0.left" timestamp="1620964357793">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1342" height="146" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1620964357793" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620563557532" />
+    <state width="1342" height="146" key="GridCell.Tab.0.right" timestamp="1620964357793">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1342" height="146" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1620964357793" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620563557533" />
+=======
     <state x="753" y="265" key="AndroidProcessChooserDialog" timestamp="1621756200281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -589,5 +629,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+>>>>>>> 353cc61885ff7f5ab028d216ed29b4bf3f244fe4
   </component>
 </project>
